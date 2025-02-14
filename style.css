@@ -1,27 +1,59 @@
+#ft{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: blue;
+}
 
-
-
-footer {
-    bottom: 0;
+footer{
     position: fixed;
+    bottom: 0;    
+
 }
 
-p{
-    color: blue;
+.pessoais{
+    margin-left: 540px;
 }
 
-.pessoais ul {
-    list-style-type: none;  /* Remove os pontos de lista padrão */
-    padding: 0;
+
+.iform{
+    border: 2px black solid;
 }
 
-.pessoais li {
-    font-size: 18px;  /* Define o tamanho da fonte */
-    color: #333;  /* Cor do texto */
-    display: flex;  /* Para alinhar o ícone e o texto na mesma linha */
-    align-items: center;  /* Alinha o ícone e o texto verticalmente */
+
+
+.lbldados  label{
+color: blue;
+display: flow-root;
+text-align: center;
+
 }
 
-.pessoais i {
-    margin-right: 10px;  /* Espaço entre o ícone e o texto */
+
+
+.menu-dados{
+    border: 1px solid blue;
+}
+
+.minha-fto img{
+    border-radius: 690%;
+    margin-left: 430px;
+}
+
+.banner01{
+    margin-left: 550px;
+    text-shadow: 4px 4px 4cqmax rgba(55, 0, 255, 0.795);
+    color: #209cee;
+}
+
+.banner-rodape {
+    background-color: black;  
+
+    width: 100%;
+    
+
+}
+
+#textbanner{
+    color: orange;
+
+margin-left: 440px;
 }
