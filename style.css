@@ -1,0 +1,27 @@
+
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+}
+
+p{
+    color: blue;
+}
+
+.pessoais ul {
+    list-style-type: none;  /* Remove os pontos de lista padrão */
+    padding: 0;
+}
+
+.pessoais li {
+    font-size: 18px;  /* Define o tamanho da fonte */
+    color: #333;  /* Cor do texto */
+    display: flex;  /* Para alinhar o ícone e o texto na mesma linha */
+    align-items: center;  /* Alinha o ícone e o texto verticalmente */
+}
+
+.pessoais i {
+    margin-right: 10px;  /* Espaço entre o ícone e o texto */
+}
